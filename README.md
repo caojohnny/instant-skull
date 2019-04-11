@@ -52,6 +52,9 @@ mvn clean install
 Requires Spigot 1.8.8 API and server to be installed in your
 local maven repository.
 
+You may also consider heading over to the releases page to
+download a pre-built jar.
+
 # Usage
 
 `/instantskull [name]` pulls up an inventory containing the
