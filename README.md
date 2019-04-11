@@ -2,6 +2,11 @@
 
 This is a demo of the solution I came up with to solve the
 question [here](https://www.spigotmc.org/threads/skull-texture.364457/).
+This demonstrates how you can instantly send the skull
+textures to the client and cache the textures to avoid the
+lookup delay, as well as how to manually update the skull
+textures in the case that the server doesn't automatically
+do it for you.
 
 The issue was that an inventory containing a player's skull
 does not seem to update the textures on the skull.
