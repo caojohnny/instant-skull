@@ -1,0 +1,9 @@
+main: com.gmail.woodyc40.instantskull.InstantSkull
+name: InstantSkull
+version: "1.0-SNAPSHOT"
+
+commands:
+  instantskull:
+    usage: /instantskull [name]
+    description: "Opens a menu with a player skull in it"
+
