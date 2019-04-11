@@ -41,6 +41,14 @@ which means that the player will see the texture update
 regardless of whether the server automatically performs
 inventory updates.
 
+If you are only interested in forcibly updating the skull
+textures to the client, then `ensureSkullTextures` is the
+only thing you need. You can remove the check for the
+GameProfile properties to always force updates, even if the
+textures have already been set. However, if you want skulls
+to load instantly after being looked up, then you need to
+also cache the CraftItemStacks as well.
+
 # Compiling
 
 ``` shell
