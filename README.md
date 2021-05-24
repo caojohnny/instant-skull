@@ -57,7 +57,7 @@ also cache the CraftItemStacks as well.
 # Compiling
 
 ``` shell
-git clone https://github.com/AgentTroll/instant-skull.git
+git clone https://github.com/caojohnny/instant-skull.git
 cd instant-skull
 mvn clean install
 ```
